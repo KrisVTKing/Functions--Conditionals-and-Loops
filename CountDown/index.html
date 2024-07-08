@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      #countdown-display {
+        font-size: 5em;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Countdown Display</h1>
+    <input type="number" id="seconds-input" placeholder="Enter seconds" />
+    <button id="start-button">Start Countdown</button>
+    <div id="countdown-display"></div>
+
+    <script src="countDown.js"></script>
+  </body>
+</html>
